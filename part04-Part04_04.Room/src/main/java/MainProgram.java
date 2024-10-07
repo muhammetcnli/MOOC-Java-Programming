@@ -8,6 +8,8 @@ public class MainProgram {
 
         // Follow the instructions carefully 
         // and run the tests.
+        Room room = new Room("Zühriye",11);
+        
     }
 
 }

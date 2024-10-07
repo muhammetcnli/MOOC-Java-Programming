@@ -8,5 +8,8 @@ public class DogAttributes {
 
         // Follow the instructions carefully
         // and run the tests.
+        Dog fino = new Dog();
+        
+        fino.breed = "fino";
     }
 }
