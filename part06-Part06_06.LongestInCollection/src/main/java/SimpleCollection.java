@@ -23,10 +23,15 @@ public class SimpleCollection {
         if(elements.isEmpty()){
             return null;
         }
-        int longest = 0;
-        for(int num: elements){
-            if(longest >)
+        String longest = elements.get(0);
+        for(String num: elements){
+            if(longest.length() < num.length()){
+                longest = num;
+                
+            }
         }
+        
+        return longest;
     }
 
 }
